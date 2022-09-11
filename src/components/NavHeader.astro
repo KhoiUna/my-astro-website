@@ -1,0 +1,72 @@
+---
+import config from "../config";
+
+const { brandName } = config;
+---
+
+<header>
+    <div id="menu">
+      <a class="links" style="text-decoration: none" href="/"
+        ><p><span class="brand-name">{brandName}</span></p
+      ></a>
+
+      <nav id="nav-container">
+        <a
+          class="links nav-links"
+          href="https://sharethemeal.org/donate"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><p class="paragraph">#MakeAnImpact</p></a
+        >
+
+        <a class="links nav-links" href="#introduction"
+          ><p class="paragraph">Intro</p></a
+        >
+        <a class="links nav-links" href="#skills"
+          ><p class="paragraph">Skills</p></a
+        >
+        <a
+          class="links nav-links"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://blog.khoiuna.info/"
+          ><p class="paragraph">Blog</p></a
+        >     
+      </nav>
+
+      <button id="burger-menu">
+        <i id="burger-icon" class="fa-solid fa-bars"></i>
+        <i
+          id="close-icon"
+          class="fa-solid fa-xmark"
+          style="display: none"
+        ></i>
+      </button>
+    </div>
+
+    <div id="dropdown-menu">
+      <nav>
+        <a
+          class="links nav-links"
+          href="https://sharethemeal.org/donate"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><p class="paragraph">#MakeAnImpact</p></a
+        >
+
+        <a class="links nav-links" href="#introduction"
+          ><p class="paragraph">Intro</p></a
+        >
+        <a class="links nav-links" href="#skills"
+          ><p class="paragraph">Skills</p></a
+        >
+        <a
+          class="links nav-links"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://blog.khoiuna.info/"
+          ><p class="paragraph">Blog</p></a
+        >     
+      </nav>
+    </div>
+  </header>

@@ -1,0 +1,85 @@
+---
+import Layout from '../layouts/Layout.astro';
+import config from '../config';
+
+const { brandName, introduction, skills } = config;
+---
+
+<Layout title="KHOI | My Page">  
+      <main>
+        <section id="hero-section">
+          <div class="container">
+            <h2 id="hero-title">Hi. I am {brandName}.</h2>
+            <button id="read-more">
+              <span>Welcome to my page</span>
+              <lottie-player
+                src="https://assets3.lottiefiles.com/private_files/lf30_NnBW3K.json"
+                background="transparent"
+                speed="1"
+                style="width: 4rem; margin: 0 auto"
+                loop
+                autoplay
+              ></lottie-player>
+            </button>
+          </div>
+        </section>
+
+        <section class="sections" id="introduction">
+          <div class="container">
+            <h2 class="title">Who am I</h2>
+
+            <div style="display: flex; justify-content: center">
+              <div class="flex-container">
+                <div id="introduction-img-container">
+                  <img src="/images/ava.jpg" alt="Khoi Nguyen" />
+                </div>
+                <div id="introduction-description-container">
+                  <p class="paragraph" id="introduction-description">
+                    <Fragment set:html={introduction} />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="parallax" id="parallax-skills"></div>
+
+        <section class="sections" id="skills">
+          <div class="container">
+            <h2 class="title">Skills</h2>
+            <lottie-player
+              src="https://assets3.lottiefiles.com/packages/lf20_M4t9nS.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+              style="width: 12rem; margin: auto"
+            ></lottie-player>
+            <div id="skills-container" class="flex-container">
+             {skills.map(item => 
+             (             
+              <div class="skills-flex">
+                <span class="iconify skill-icons" data-icon={item.icon}/>
+                <p class="skill-paragraphs">{item.name}</p>
+              </div>
+             ))}
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <script
+        is:inline
+        src="https://kit.fontawesome.com/27e2db23db.js"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        is:inline
+        src="https://code.iconify.design/2/2.2.1/iconify.min.js"
+      ></script>
+      <script
+        is:inline
+        src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+      ></script>
+</Layout>

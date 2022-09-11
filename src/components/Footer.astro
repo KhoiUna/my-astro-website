@@ -1,0 +1,33 @@
+---
+import config from "../config";
+
+const { brandName, contacts } = config;
+---
+
+<footer>
+    <div id="footer-flex">
+      <p class="title" id="footer-brand"><span class="brand-name">{brandName}</span></p>
+
+      <div id="contacts-container" class="footer-container">
+        <p class="footer-title">Contact</p>
+        {contacts.map((item) => 
+        (
+            <p><a class="links" href={`mailto:${item.text}`}>{item.text}</a></p>
+        ))}
+      </div>
+    </div>
+
+    <div class="footer-container social-icons-container"></div>
+
+    <p class="paragraph" id="copyright">
+      &copy; <span id="copyright-year">{new Date().getFullYear()}</span> |
+      <span class="brand-name">{brandName}</span>. Built with
+      <a
+        href="https://astro.build/"
+        class="links"
+        target="_blank"
+        rel="noreferrer"
+        >Astro</a
+      >
+    </p>
+</footer>
