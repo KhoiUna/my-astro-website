@@ -18,8 +18,8 @@ const { brandName, contacts, socials } = config;
 
     <div class="footer-container social-icons-container">
       {socials.map(item => (
-        <a class="links" target="_blank" rel="noopener noreferrer" href={item.link}>
-          <i class={item.icon + " social-icons"}></i>
+        <a target="_blank" rel="noopener noreferrer" href={item.link}>
+          <i class={item.icon + " social-icons"} />
         </a>
       ))}
     </div>
