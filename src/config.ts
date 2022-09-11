@@ -3,7 +3,7 @@ const config = {
   introduction:
     "<b>I am</b> an international student from Vietnam pursuing a Bachelor's Degree in Computer Information Systems with a minor in Cybersecurity at University of North Alabama. <br/><b>I am</b> a Software Engineer that writes clean code and prioritizes good coding practices. Also, I believe my interest in Entrepreneurship help me stay open-minded to new ideas.",
 
-  // Please add .skill-icons
+  // Iconify icons: https://icon-sets.iconify.design/
   skills: [
     {
       name: "HTML",
@@ -97,23 +97,23 @@ const config = {
     },
   ],
 
-  // Please add .social-icons
+  // Font awesome icons: https://fontawesome.com/icons
   socials: [
     {
       link: "https://github.com/khoiUna/",
-      icon: `<i class="fa-brands fa-github social-icons"></i>`,
+      icon: "fa-brands fa-github",
     },
     {
       link: "https://twitter.com/KhoiUna",
-      icon: `<i class="fa-brands fa-twitter social-icons"></i>`,
+      icon: "fa-brands fa-twitter",
     },
     {
       link: "https://www.linkedin.com/in/khoiuna/",
-      icon: `<i class="fa-brands fa-linkedin-in social-icons"></i>`,
+      icon: "fa-brands fa-linkedin-in",
     },
     {
-      link: "https://www.youtube.com/c/khoiuna",
-      icon: `<i class="fa-brands fa-youtube social-icons"></i>`,
+      link: "https://www.youtube.com/channel/UCo3A3_8jiHnepCQnb9aBtjQ?sub_confirmation=true",
+      icon: "fa-brands fa-youtube",
     },
   ],
 };
