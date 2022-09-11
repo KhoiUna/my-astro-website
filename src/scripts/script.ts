@@ -1,7 +1,7 @@
 import $ from "jquery";
 
 // Global variables
-const animationDuration = 300;
+const animationDuration = 400;
 let menuOpened = false;
 
 // Select elements
