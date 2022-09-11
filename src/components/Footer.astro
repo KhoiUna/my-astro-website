@@ -1,7 +1,7 @@
 ---
 import config from "../config";
 
-const { brandName, contacts } = config;
+const { brandName, contacts, socials } = config;
 ---
 
 <footer>
@@ -10,14 +10,19 @@ const { brandName, contacts } = config;
 
       <div id="contacts-container" class="footer-container">
         <p class="footer-title">Contact</p>
-        {contacts.map((item) => 
-        (
+        {contacts.map((item) => (
             <p><a class="links" href={`mailto:${item.text}`}>{item.text}</a></p>
         ))}
       </div>
     </div>
 
-    <div class="footer-container social-icons-container"></div>
+    <div class="footer-container social-icons-container">
+      {socials.map(item => (
+        <a class="links" target="_blank" rel="noopener noreferrer" href={item.link}>
+          <i class={item.icon + " social-icons"}></i>
+        </a>
+      ))}
+    </div>
 
     <p class="paragraph" id="copyright">
       &copy; <span id="copyright-year">{new Date().getFullYear()}</span> |
@@ -26,7 +31,7 @@ const { brandName, contacts } = config;
         href="https://astro.build/"
         class="links"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         >Astro</a
       >
     </p>
