@@ -57,12 +57,11 @@ const { brandName, introduction, skills } = config;
               style="width: 12rem; margin: auto"
             ></lottie-player>
             <div id="skills-container" class="flex-container">
-             {skills.map(item => 
-             (             
-              <div class="skills-flex">
-                <span class="iconify skill-icons" data-icon={item.icon}/>
-                <p class="skill-paragraphs">{item.name}</p>
-              </div>
+             {skills.map(item => (             
+                <div class="skills-flex">
+                  <span class="iconify skill-icons" data-icon={item.icon}/>
+                  <p class="skill-paragraphs">{item.name}</p>
+                </div>
              ))}
             </div>
           </div>
