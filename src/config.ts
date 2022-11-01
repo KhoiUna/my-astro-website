@@ -112,7 +112,7 @@ const config = {
       icon: "fa-brands fa-linkedin-in",
     },
     {
-      link: "https://www.youtube.com/channel/UCo3A3_8jiHnepCQnb9aBtjQ?sub_confirmation=true",
+      link: "https://www.youtube.com/@tech.startups?sub_confirmation=true",
       icon: "fa-brands fa-youtube",
     },
   ],
