@@ -1,7 +1,7 @@
 const config = {
   brandName: "KHOI",
   introduction:
-    "<b>I am</b> an international student from Vietnam pursuing a Bachelor's Degree in Computer Information Systems with a minor in Cybersecurity at University of North Alabama. <br/><b>I am</b> a Software Engineer that writes clean code and prioritizes good coding practices. Also, I believe my interest in Entrepreneurship help me stay open-minded to new ideas.",
+    "<b>I am</b> an international student from Vietnam pursuing a Double Degree BBA Computer Information Systems and BS Information Technology in Cybersecurity at University of North Alabama. <br/><b>I am</b> a Software Engineer that writes clean code and prioritizes good coding practices. Also, I believe my interest in Entrepreneurship help me stay open-minded to new ideas.",
 
   // Iconify icons: https://icon-sets.iconify.design/
   skills: [
