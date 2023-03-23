@@ -20,7 +20,10 @@ const { title } = Astro.props;
   <body>
     <div class="parallax" id="parallax-hero">
       <NavHeader/>
-      <slot></slot>
+
+      <main>
+        <slot></slot>
+      </main>
     </div>	
   </body>
 
@@ -29,4 +32,17 @@ const { title } = Astro.props;
   <script>
     import "../scripts/script.ts";
   </script>
+    <script
+    is:inline
+    src="https://kit.fontawesome.com/27e2db23db.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    is:inline
+    src="https://code.iconify.design/2/2.2.1/iconify.min.js"
+  ></script>
+  <script
+    is:inline
+    src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+  ></script>
 </html>
