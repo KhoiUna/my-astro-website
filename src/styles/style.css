@@ -121,6 +121,29 @@ header {
   color: #fff;
 }
 
+/* Style social icons */
+.social-icons {
+  font-size: 1rem;
+  border-radius: 100%;
+  border: 2px solid #f6f6f6;
+  padding: 0.6rem;
+  margin: 0.5rem 1rem 0.5rem 0;
+  transition: all 0.4s ease 0s;
+  color: #fff;
+}
+.social-icons:hover {
+  background-color: #fff;
+  color: var(--theme-bg-color);
+}
+i:hover {
+  color: var(--theme-bg-color);
+}
+@media screen and (min-width: 500px) {
+  .social-icons-container {
+    margin: 1.5rem 1.5rem 0;
+  }
+}
+
 /* Style introduction */
 #introduction {
   text-align: center;
