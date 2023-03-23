@@ -1,6 +1,7 @@
 import $ from "jquery";
 
 // Global variables
+const RATIO = (0.05 * 2) / 3;
 const animationDuration = 400;
 let menuOpened = false;
 
@@ -48,7 +49,7 @@ $(() => {
   const smoothScroll = (cssSelector: string) => {
     const destination = $(cssSelector);
     const scrollPosition =
-      destination.offset()!.top - destination.offset()!.top * 0.05;
+      destination.offset()!.top - destination.offset()!.top * RATIO;
 
     $("html").animate(
       {
