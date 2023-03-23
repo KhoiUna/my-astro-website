@@ -2,13 +2,22 @@
 import Layout from '../layouts/Layout.astro';
 import config from '../config';
 
-const { brandName, introduction, skills } = config;
+const { brandName, introduction, skills, socials } = config;
 ---
 
 <Layout title="KHOI | My Page">  
         <section id="hero-section">
           <div class="container">
             <h2 id="hero-title">Hi. I am {brandName}.</h2>
+
+            <div class="footer-container social-icons-container">
+              {socials.map(item => (
+                <a target="_blank" rel="noopener noreferrer" href={item.link}>
+                  <i class={item.icon + " social-icons"} />
+                </a>
+              ))}
+            </div>
+
             <button id="read-more">
               <lottie-player
                 src="https://assets3.lottiefiles.com/private_files/lf30_NnBW3K.json"
