@@ -9,9 +9,11 @@ const header = document.querySelector("header") as HTMLHeadingElement;
 
 // Functions
 const headerFading = () => {
+  const html = document.querySelector("html") as HTMLHtmlElement;
+
   if (menuOpened) return (header.style.animation = "colorFadeIn 1s forwards");
 
-  if (document.querySelector("html")!.scrollTop > 0)
+  if (html.scrollTop > 0)
     return (header.style.animation = "colorFadeIn 1s forwards");
 
   return (header.style.animation = "colorFadeOut 1s forwards");
@@ -41,6 +43,7 @@ const toggleMenu = () => {
 
 // Add jQuery
 window.addEventListener("scroll", headerFading);
+
 $(() => {
   const smoothScroll = (cssSelector: string) => {
     const destination = $(cssSelector);
@@ -57,8 +60,11 @@ $(() => {
 
   // nav-links
   $(".nav-links").on("click", (event) => {
+    event.preventDefault();
+
     const destination = event.currentTarget.getAttribute("href")!;
     smoothScroll(destination);
+
     toggleMenu();
   });
 
