@@ -10,7 +10,6 @@ const { brandName, introduction, skills } = config;
           <div class="container">
             <h2 id="hero-title">Hi. I am {brandName}.</h2>
             <button id="read-more">
-              <span>Welcome to my page</span>
               <lottie-player
                 src="https://assets3.lottiefiles.com/private_files/lf30_NnBW3K.json"
                 background="transparent"
@@ -18,7 +17,7 @@ const { brandName, introduction, skills } = config;
                 style="width: 4rem; margin: 0 auto"
                 loop
                 autoplay
-              ></lottie-player>
+              />
             </button>
           </div>
         </section>
@@ -55,13 +54,27 @@ const { brandName, introduction, skills } = config;
               autoplay
               style="width: 12rem; margin: auto"
             ></lottie-player>
+
             <div id="skills-container" class="flex-container">
-             {skills.map(item => (             
+             {skills.map(item => (
                 <div class="skills-flex">
                   <span class="iconify skill-icons" data-icon={item.icon}/>
                   <p class="skill-paragraphs">{item.name}</p>
                 </div>
              ))}
+            </div>
+          </div>
+        </section>
+
+        <div class="parallax" id="parallax-projects"></div>
+
+        <section class="sections" id="projects">
+          <div class="container">
+            <h2 class="title">Projects</h2>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ctqgzmyh.json"  background="transparent"  speed="1"  style="width: 12rem; margin: auto;"  loop autoplay></lottie-player>
+
+            <div id="projects-container" class="flex-container">
+              <p class="paragraph">Coming soon...</p>
             </div>
           </div>
         </section>
