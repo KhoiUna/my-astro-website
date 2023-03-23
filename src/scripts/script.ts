@@ -60,8 +60,6 @@ $(() => {
 
   // nav-links
   $(".nav-links").on("click", (event) => {
-    event.preventDefault();
-
     const destination = event.currentTarget.getAttribute("href")!;
     smoothScroll(destination);
 
