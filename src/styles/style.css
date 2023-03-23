@@ -168,7 +168,7 @@ header {
 /* Style skills */
 #parallax-skills {
   background-image: url("/images/coding.jpg");
-  min-height: 30vh;
+  min-height: 50vh;
 }
 
 #skills-container {
@@ -182,7 +182,7 @@ header {
 }
 @media screen and (min-width: 500px) and (orientation: landscape) {
   #skills-container {
-    margin: 1.5rem 12rem;
+    margin: 1.5rem;
   }
 }
 
@@ -297,5 +297,26 @@ header {
   .question-mark {
     animation: spinQuestionMark 1s infinite linear;
     -webkit-animation: spinQuestionMark 1s infinite linear;
+  }
+}
+
+/* Style projects */
+#parallax-projects {
+  background-image: url("/images/projects.jpg");
+  min-height: 50vh;
+}
+
+#projects-container {
+  background-color: #fff;
+  border-radius: 12px;
+  border: 3px solid silver;
+  padding: 0.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+@media screen and (min-width: 500px) and (orientation: landscape) {
+  #projects-container {
+    margin: 1.5rem;
   }
 }
