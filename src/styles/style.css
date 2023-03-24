@@ -333,11 +333,17 @@ i:hover {
   color: var(--theme-primary-color);
   font-weight: bold;
 }
-.project-cards img {
+.project-cards .image-container {
+  margin: 0 1.5rem;
+}
+.project-cards .image-container img {
   width: 100%;
   border-radius: 12px;
   margin-top: 1rem;
   object-fit: scale-down;
+}
+.project-cards .small-paragraph {
+  padding: 1rem 1.5rem;
 }
 .project-cards .paragraph {
   font-size: 1.3rem;
