@@ -69,7 +69,7 @@ const { brandName, introduction, skills, projects, socials } = config;
              {skills.map(item => (
                 <div class="skills-flex">
                   <span class="iconify skill-icons" data-icon={item.icon}/>
-                  <p class="skill-paragraphs">{item.name}</p>
+                  <p class="small-paragraph">{item.name}</p>
                 </div>
              ))}
             </div>
@@ -89,7 +89,8 @@ const { brandName, introduction, skills, projects, socials } = config;
               {projects.map(({title, description, link, image}) => (
                 <div class="project-cards">
                   <p class="project-cards-title">{title}</p>
-                  <p class="paragraph">{description}</p>
+                  <img src={image} alt={ title + ' | ' + description } />
+                  <p class="small-paragraph">{description}</p>
                   <a class="paragraph" href={link} target="_blank" rel="noopener noreferrer">Check it out</a>
                 </div>
               ))}
