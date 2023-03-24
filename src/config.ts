@@ -1,7 +1,7 @@
 const config = {
   brandName: "KHOI",
   introduction:
-    "<b>I am</b> an international student from Vietnam pursuing a Double Degree BBA Computer Information Systems and BS Information Technology in Cybersecurity at University of North Alabama. <br/><b>I am</b> a Software Engineer that writes clean code and prioritizes good coding practices. Also, I believe my interest in Entrepreneurship help me stay open-minded to new ideas.",
+    "<b>I am</b> an international student from Vietnam pursuing a Dual Degree BBA Computer Information Systems and BS Information Technology in Cybersecurity at University of North Alabama. <br/><b>I am</b> a Software Engineer that writes clean code and prioritizes good coding practices. Also, I believe my interest in Entrepreneurship help me stay open-minded to new ideas.",
 
   // Iconify icons: https://icon-sets.iconify.design/
   skills: [
@@ -90,6 +90,16 @@ const config = {
       icon: "logos:postgresql",
     },
   ],
+
+  projects: [
+    {
+      title: "Coming soon",
+      link: "#",
+      description: "Please be patient.My project will soon be here!",
+      image: "",
+    },
+  ],
+
   contacts: [
     {
       type: "email",
