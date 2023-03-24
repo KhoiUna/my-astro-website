@@ -10,6 +10,19 @@
   font-family: "Roboto Serif", sans-serif;
 }
 
+/* Customize scrollbar */
+*::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+*::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: silver;
+  border-radius: 8px;
+}
+
 body {
   background-color: var(--theme-bg-color);
 }
