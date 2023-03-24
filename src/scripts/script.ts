@@ -64,6 +64,12 @@ $(() => {
     const destination = event.currentTarget.getAttribute("href")!;
     smoothScroll(destination);
 
+    if (
+      event.currentTarget.parentNode?.parentElement?.getAttribute("id") !==
+      "dropdown-menu"
+    )
+      return;
+
     toggleMenu();
   });
 
