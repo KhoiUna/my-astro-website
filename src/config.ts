@@ -96,7 +96,7 @@ const config = {
       title: "Coming soon",
       link: "#",
       description: "Please be patient. My project will soon be here!",
-      image: "",
+      image: "/images/projects.jpg",
     },
   ],
 
