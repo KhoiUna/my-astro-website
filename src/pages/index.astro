@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import config from '../config';
 
-const { brandName, introduction, skills, socials } = config;
+const { brandName, introduction, skills, projects, socials } = config;
 ---
 
 <Layout title="KHOI | My Page">  
@@ -85,8 +85,14 @@ const { brandName, introduction, skills, socials } = config;
               src="https://assets8.lottiefiles.com/packages/lf20_ctqgzmyh.json"  
               background="transparent"  speed="1"  style="width: 16rem; margin: auto;" loop autoplay></lottie-player>
 
-            <div id="projects-container" class="flex-container">
-              <p class="paragraph">Coming soon...</p>
+            <div class="project-cards-container">
+              {projects.map(({title, description, link, image}) => (
+                <div class="project-cards">
+                  <p class="project-cards-title">{title}</p>
+                  <p class="paragraph">{description}</p>
+                  <a class="paragraph" href={link} target="_blank" rel="noopener noreferrer">Check it out</a>
+                </div>
+              ))}
             </div>
           </div>
         </section>
