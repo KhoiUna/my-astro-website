@@ -1,3 +1,5 @@
+@import url(./global.css);
+
 #parallax-hero {
   background-image: linear-gradient(
       to bottom,
@@ -21,12 +23,12 @@
     background-color: transparent;
   }
   to {
-    background-color: var(--theme-bg-color);
+    background-color: var(--theme-primary-color);
   }
 }
 @keyframes colorFadeOut {
   from {
-    background-color: var(--theme-bg-color);
+    background-color: var(--theme-primary-color);
   }
   to {
     background-color: transparent;
@@ -67,7 +69,7 @@ header {
   display: none;
   text-align: center;
   flex-direction: column;
-  background-color: var(--theme-bg-color);
+  background-color: var(--theme-primary-color);
   align-items: center;
   justify-content: space-between;
 }
@@ -133,10 +135,10 @@ header {
 }
 .social-icons:hover {
   background-color: #fff;
-  color: var(--theme-bg-color);
+  color: var(--theme-primary-color);
 }
 i:hover {
-  color: var(--theme-bg-color);
+  color: var(--theme-primary-color);
 }
 @media screen and (min-width: 500px) {
   .social-icons-container {
@@ -218,28 +220,6 @@ i:hover {
 
 .skill-icons {
   font-size: 2.5rem;
-}
-
-.project-cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.project-cards {
-  box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
-  border: 3px solid #000;
-  border-radius: 12px;
-  background-color: #fdfdfd;
-  margin: 1rem 2rem;
-}
-.project-cards-title {
-  text-align: center;
-  font-weight: bold;
-}
-.project-cards p,
-.project-cards a {
-  color: #000;
 }
 
 /* Style other stuff */
@@ -329,17 +309,33 @@ i:hover {
   min-height: 50vh;
 }
 
-#projects-container {
-  background-color: #fff;
-  border-radius: 12px;
-  border: 3px solid silver;
-  padding: 0.5rem;
+.project-cards-container {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
-  margin-top: 4rem;
 }
-@media screen and (min-width: 500px) and (orientation: landscape) {
-  #projects-container {
-    margin: 1.5rem;
-  }
+
+.project-cards {
+  border: 3px solid #000;
+  border-radius: 12px;
+  background-color: #fff;
+  margin: 1.5rem 2rem;
+  padding: 1rem;
+  width: 350px;
+}
+.project-cards:hover {
+  box-shadow: 0px -5px 23px 0px rgba(0, 0, 0, 0.35);
+}
+.project-cards-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.project-cards a {
+  color: var(--theme-primary-color);
+  font-weight: bold;
+}
+.project-cards .paragraph {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
 }

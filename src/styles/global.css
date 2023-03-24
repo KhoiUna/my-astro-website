@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
 
 :root {
-  --theme-bg-color: #0e3d66;
+  --theme-primary-color: #0e3d66;
 }
 
 * {
@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: var(--theme-bg-color);
+  background-color: var(--theme-primary-color);
 }
 
 .nav-links {
