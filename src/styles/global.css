@@ -76,7 +76,7 @@ body {
 }
 
 .paragraph,
-.skill-paragraphs {
+.small-paragraph {
   padding: 1.5rem;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -86,7 +86,7 @@ body {
     line-height: 2.2rem;
     font-size: 1.5rem;
   }
-  .skill-paragraphs {
+  .small-paragraph {
     line-height: 2.2rem;
     font-size: 1.2rem;
   }
@@ -99,6 +99,7 @@ body {
 .sections {
   background-color: #f6f6f6;
   padding: 0.5rem;
+  min-height: 100vh;
 }
 
 .reveal {
