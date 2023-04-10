@@ -6,14 +6,6 @@ const config = {
   // Iconify icons: https://icon-sets.iconify.design/
   skills: [
     {
-      name: "HTML",
-      icon: "logos:html-5",
-    },
-    {
-      name: "CSS",
-      icon: "logos:css-3",
-    },
-    {
       name: "Bootstrap",
       icon: "logos:bootstrap",
     },
@@ -50,8 +42,8 @@ const config = {
       icon: "logos:nodejs-icon",
     },
     {
-      name: "Apache",
-      icon: "logos:apache",
+      name: "ExpressJS",
+      icon: "simple-icons:express",
     },
     {
       name: "Nginx",
@@ -68,14 +60,6 @@ const config = {
     {
       name: "Digital Ocean",
       icon: "logos:digital-ocean",
-    },
-    {
-      name: "ExpressJS",
-      icon: "simple-icons:express",
-    },
-    {
-      name: "Google Cloud",
-      icon: "logos:google-cloud",
     },
     {
       name: "MongoDB",
