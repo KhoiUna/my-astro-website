@@ -1,7 +1,7 @@
 const config = {
   brandName: "KHOI",
   introduction:
-    "<b>I am</b> an international student from Vietnam pursuing a Dual Degree BBA Computer Information Systems and BS Information Technology in Cybersecurity at University of North Alabama. <br/><b>I am</b> a Software Engineer that writes clean code and prioritizes good coding practices. Also, I believe my interest in Entrepreneurship help me stay open-minded to new ideas.",
+    "👋 Hey! I'm Khoi Nguyen. I am pursuing a Dual Degree: a Bachelor of Science in Information Technology in Cybersecurity and a Bachelor of Business Administration in Computer Information Systems at the University of North Alabama. <br/>🚀 I aspire to work in a fast-growing startup, then start one. In the past, I've worked at 2 startups doing NextJS, React, PostgreSQL, and TypeScript. Outside of work, I enjoy biking and traveling. Would love to connect!",
 
   // Iconify icons: https://icon-sets.iconify.design/
   skills: [
