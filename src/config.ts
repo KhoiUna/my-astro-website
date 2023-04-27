@@ -77,10 +77,16 @@ const config = {
 
   projects: [
     {
-      title: "Coming soon",
-      link: "#",
-      description: "Please be patient. My project will soon be here!",
-      image: "/images/projects.jpg",
+      title: "NFC Orange",
+      link: "https://www.nfcorange.com/",
+      description: "Enhance universities' career fair experience with NFC cards.",
+      image: "/images/nfcorange.gif",
+    },
+    {
+      title: "Shooting Numbers",
+      link: "https://shootingnum.khoiuna.info/",
+      description: "An annoying shooting math game made with PhaserJS.",
+      image: "/images/shootingnum.jpg",
     },
   ],
 
