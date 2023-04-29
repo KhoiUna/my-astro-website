@@ -89,6 +89,12 @@ const config = {
       image: "/images/chekchat.jpg",
     },
     {
+      title: "Birthday Piano",
+      link: "https://birthday.khoiuna.info/",
+      description: "A website that lets you send a wish to someone on their birthday.",
+      image: "/images/birthdaypiano.png"
+    },
+    {
       title: "Shooting Numbers",
       link: "https://shootingnum.khoiuna.info/",
       description: "An annoying shooting math game made with PhaserJS.",
