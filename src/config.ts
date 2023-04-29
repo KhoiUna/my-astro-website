@@ -83,6 +83,12 @@ const config = {
       image: "/images/nfcorange.gif",
     },
     {
+      title: "ChekChat",
+      link: "https://chekchat.cc/",
+      description: "Fully open-sourced chatting app for assigning tasks.",
+      image: "/images/chekchat.jpg",
+    },
+    {
       title: "Shooting Numbers",
       link: "https://shootingnum.khoiuna.info/",
       description: "An annoying shooting math game made with PhaserJS.",
