@@ -84,20 +84,20 @@ const config = {
     },
     {
       title: "ChekChat",
-      link: "https://chekchat.cc/",
-      description: "Fully open-sourced chatting app for assigning tasks.",
+      link: "https://github.com/KhoiUna/chekchat",
+      description: "Open-source chatting app for assigning tasks.",
       image: "/images/chekchat.jpg",
     },
     {
       title: "Birthday Piano",
-      link: "https://birthday.khoiuna.info/",
-      description: "A website that lets you send a wish to someone on their birthday.",
+      link: "https://github.com/KhoiUna/birthday-piano",
+      description: "Open-source website that lets you send a wish to someone on their birthday.",
       image: "/images/birthdaypiano.png"
     },
     {
       title: "Shooting Numbers",
       link: "https://shootingnum.khoiuna.info/",
-      description: "An annoying shooting math game made with PhaserJS.",
+      description: "An open-source annoying shooting math game made with PhaserJS.",
       image: "/images/shootingnum.jpg",
     },
   ],
