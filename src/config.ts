@@ -97,7 +97,7 @@ const config = {
     {
       title: "Shooting Numbers",
       link: "https://shootingnum.khoiuna.info/",
-      description: "An open-source annoying shooting math game made with PhaserJS.",
+      description: "Open-source annoying shooting math game made with PhaserJS.",
       image: "/images/shootingnum.jpg",
     },
   ],
