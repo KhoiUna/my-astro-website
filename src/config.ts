@@ -79,7 +79,7 @@ const config = {
     {
       title: "NFC Orange",
       link: "https://www.nfcorange.com/",
-      description: "Online identity with a card tap.",
+      description: "Get your digital business card & join our student community.",
       image: "/images/nfcorange.gif",
     },
     {
