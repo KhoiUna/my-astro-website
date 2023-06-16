@@ -1,7 +1,7 @@
 const config = {
   brandName: "KHOI",
   introduction:
-    "👋 Hey! I'm Khoi Nguyen. I am pursuing a Dual Degree: a Bachelor of Science in Information Technology in Cybersecurity and a Bachelor of Business Administration in Computer Information Systems at the University of North Alabama. <br/>🚀 I aspire to work in a fast-growing startup, then start one. In the past, I've worked at 2 startups doing NextJS, React, PostgreSQL, and TypeScript. Outside of work, I enjoy biking and traveling. Would love to connect!",
+    "👋 Hey! I'm Khoi Nguyen. I am pursuing a Dual Degree: a Bachelor of Science in Information Technology and a Bachelor of Business Administration in Management Information Systems at the University of North Alabama.<br/>🚀 I aspire to work for innovative startups, then start one. I've worked at 2 startups and started my own with tech stacks such as NextJS, React, PostgreSQL, and TypeScript. Outside of work, I enjoy biking and traveling. Would love to connect!",
 
   // Iconify icons: https://icon-sets.iconify.design/
   skills: [
@@ -79,7 +79,7 @@ const config = {
     {
       title: "NFC Orange",
       link: "https://www.nfcorange.com/",
-      description: "Get your digital business card & join our student community.",
+      description: "Modernize Career Fairs: Embrace the Paperless Revolution.",
       image: "/images/nfcorange.gif",
     },
     {
