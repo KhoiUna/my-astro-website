@@ -1,7 +1,7 @@
 ---
 import config from "../config";
 
-const { brandName } = config;
+const { brandName, resumeURL } = config;
 ---
 
 <header>
@@ -24,7 +24,7 @@ const { brandName } = config;
           class="links nav-links"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.dropbox.com/s/8ftub28s6x5zlsb/Khoi_Tuan_Nguyen_resume.pdf?dl=0"
+          href={resumeURL}
           ><p class="paragraph">Resume</p></a
         >     
         <a
@@ -61,7 +61,7 @@ const { brandName } = config;
           class="links nav-links"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.dropbox.com/s/8ftub28s6x5zlsb/Khoi_Tuan_Nguyen_resume.pdf?dl=0"
+          href={resumeURL}
           ><p class="paragraph">Resume</p></a
         >     
         <a
