@@ -2,7 +2,7 @@ const config = {
   brandName: "KHOI",
   resumeURL: 'https://www.dropbox.com/s/l50unbyzyyva7qc/Khoi_Tuan_Nguyen_Resume.pdf?dl=0',
   introduction:
-    "👋 Hey! I'm Khoi Nguyen. I am pursuing a Dual Degree: a Bachelor of Science in Information Technology and a Bachelor of Business Administration in Management Information Systems at the University of North Alabama.<br/>🚀 I aspire to work for innovative startups, then start one. I've worked at 2 startups and started my own with tech stacks such as NextJS, React, PostgreSQL, and TypeScript. Outside of work, I enjoy biking and traveling. Would love to connect!",
+    "👋 Hey! I'm Khoi Nguyen. I am pursuing a Dual Degree: a Bachelor of Science in Information Technology and a Bachelor of Business Administration in Computer Information Systems at the University of North Alabama.<br/><br/>🚀 I've worked at 3 startups with tech stacks such as Python, NextJS, React, PostgreSQL, and TypeScript. Outside of work, I enjoy biking and traveling. Would love to connect!",
 
   // Iconify icons: https://icon-sets.iconify.design/
   skills: [
