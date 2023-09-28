@@ -25,25 +25,10 @@ const { title } = Astro.props;
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.khoiuna.info" />
     <meta property="og:title" content={title} />
-    <meta
-      property="og:image"
-      content="https://www.khoiuna.info/images/ava.jpg"
-    />
+    <meta property="og:image" content="https://www.khoiuna.info/images/ava.jpg" />
     <meta property="og:description" content="Khoi Nguyen's personal website" />
 
     <link rel="image_src" href="/images/ava.jpg" />
-    <!-- SEO related tags -->
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M4SW052LRV"></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-M4SW052LRV');
-    </script>
-
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
