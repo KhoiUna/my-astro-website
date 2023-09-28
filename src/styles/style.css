@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(14, 61, 102, 0.5)
     ),
-    url("/images/coding.jpg");
+    url("/images/projects.jpg");
   min-height: 100vh;
   background-position: top;
   background-size: auto;
@@ -197,17 +197,16 @@ i:hover {
 }
 
 #skills-container {
-  background-color: #fff;
+  max-width: 1200px;
+  margin: 4rem auto 0 auto;
   border-radius: 12px;
-  border: 3px solid silver;
   padding: 0.5rem;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin-top: 4rem;
 }
 @media screen and (min-width: 500px) and (orientation: landscape) {
   #skills-container {
-    margin: 1.5rem;
+    margin: 1.5rem auto;
   }
 }
 

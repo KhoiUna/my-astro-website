@@ -113,8 +113,12 @@ const config = {
   // Font awesome icons: https://fontawesome.com/icons
   socials: [
     {
-      link: "https://github.com/khoiUna/",
+      link: "https://github.com/khoiuna/",
       icon: "fa-brands fa-github",
+    },
+    {
+      link: "https://fosstodon.org/@khoi",
+      icon: "fa-brands fa-mastodon",
     },
     {
       link: "https://twitter.com/KhoiUna",
