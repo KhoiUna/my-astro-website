@@ -111,6 +111,19 @@ header {
   }
 }
 
+#open-to-work {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 500px) {
+  #open-to-work {
+    font-size: 1.8rem;
+  }
+}
+
 #read-more {
   margin: 1rem;
   padding: 0.7rem;
