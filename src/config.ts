@@ -129,10 +129,6 @@ const config = {
       icon: "fa-brands fa-linkedin-in",
     },
     {
-      link: "https://www.instagram.com/khoi.una/",
-      icon: "fa-brands fa-instagram",
-    },
-    {
       link: "https://www.youtube.com/@tech.startups?sub_confirmation=true",
       icon: "fa-brands fa-youtube",
     },
