@@ -87,7 +87,7 @@ const config = {
       title: "ChekChat",
       link: "https://github.com/KhoiUna/chekchat",
       description: "Open-source chatting app for assigning tasks.",
-      image: "/images/chekchat.jpg",
+      image: "/images/chekchat.webp",
     },
     {
       title: "Birthday Piano",
@@ -99,7 +99,7 @@ const config = {
       title: "Shooting Numbers",
       link: "https://shootingnum.khoiuna.info/",
       description: "Open-source annoying shooting math game made with PhaserJS.",
-      image: "/images/shootingnum.jpg",
+      image: "/images/shootingnum.webp",
     },
   ],
 

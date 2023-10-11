@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(14, 61, 102, 0.5)
     ),
-    url("/images/projects.jpg");
+    url("/images/projects.webp");
   min-height: 100vh;
   background-position: top;
   background-size: auto;
@@ -205,7 +205,7 @@ i:hover {
 
 /* Style skills */
 #parallax-skills {
-  background-image: url("/images/coding.jpg");
+  background-image: url("/images/coding.webp");
   min-height: 50vh;
 }
 
@@ -236,7 +236,7 @@ i:hover {
 
 /* Style other stuff */
 #parallax-other-stuff {
-  background-image: url("/images/music.jpg");
+  background-image: url("/images/music.webp");
   min-height: 30vh;
 }
 
@@ -317,7 +317,7 @@ i:hover {
 
 /* Style projects */
 #parallax-projects {
-  background-image: url("/images/projects.jpg");
+  background-image: url("/images/projects.webp");
   min-height: 50vh;
 }
 
