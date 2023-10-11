@@ -93,7 +93,7 @@ const config = {
       title: "Birthday Piano",
       link: "https://github.com/KhoiUna/birthday-piano",
       description: "Open-source website that lets you send a wish to someone on their birthday.",
-      image: "/images/birthdaypiano.png"
+      image: "/images/birthdaypiano.webp"
     },
     {
       title: "Shooting Numbers",
